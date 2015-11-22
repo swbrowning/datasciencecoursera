@@ -1,4 +1,4 @@
-calculate_mean <- function(){}
+calculate_mean <- function(){
         ##load data
             setwd("~/datasciencecoursera/R-class/UCI HAR Dataset")
            
@@ -12,8 +12,6 @@ calculate_mean <- function(){}
             y_train <- read.table("train/y_train.txt")
             subject_train <- read.table("train/subject_train.txt")
         
-        
-        ##rbind each 
             
         #create each train set and test set then row bind otherwise loose records
         #as each subject in not in both test and train data sets
