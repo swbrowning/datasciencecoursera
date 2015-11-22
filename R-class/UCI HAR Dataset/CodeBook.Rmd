@@ -1,0 +1,42 @@
+---
+title: "CodeBook"
+author: "Shelley Browning"
+date: "November 22, 2015"
+output: html_document
+---
+
+Create each train set and test set then row bind otherwise loose records as each subject in not in both test and train data sets.
+
+The "X" files are the measures.
+The "Y" files contain the id for the activities.
+The "subject" files are the files with the id for participants in the trial.
+
+The lables are descriptive values for the activites.
+The features are the descriptive values for the measures
+
+The following process is completed for both the train and test datasets before they are combined.
+
+Step 1:
+Rename the columns in the subject data sets for test and train.
+
+Step 2:
+Change column names for the test and train measures using the features data table.
+
+Step 3:
+Combine the subject and activity data. Join the activity labels.
+
+Step 4:
+Rename the column for activity description.
+
+Step 5:
+Combine the train and test data sets.
+
+Step 6:
+Subset the data to only include columns where the column name contains mean or std.
+
+Step 7:
+Calculate the average values for remaining measures by Subject and Activity.
+
+Step 8:
+Write out to a text file.
+
