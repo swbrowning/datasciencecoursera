@@ -1,4 +1,8 @@
 calculate_mean <- function(){
+        
+        #load dependencies
+        library(dplyr)
+    
         ##load data
             setwd("~/datasciencecoursera/R-class/UCI HAR Dataset")
            
@@ -52,6 +56,10 @@ calculate_mean <- function(){
         
         #get only columns that have std and mean
         TrainData <- TrainData[,grepl("SubjectId|ActivityName|std|mean", names(TrainData))]
+        TestData <- TestData[,grepl("SubjectId|ActivityName|std|mean", names(TestData))]
+        
+        #combine all the train and test data sets
+        AllData <- rbind(TrainData, TestData)
         
         
         #sort the data
