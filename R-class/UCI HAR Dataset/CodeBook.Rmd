@@ -11,7 +11,7 @@ The "X" files are the measures.
 The "Y" files contain the id for the activities.
 The "subject" files are the files with the id for participants in the trial.
 
-The lables are descriptive values for the activites.
+The labels are descriptive values for the activities.
 The features are the descriptive values for the measures
 
 The following process is completed for both the train and test datasets before they are combined.
@@ -39,4 +39,3 @@ Calculate the average values for remaining measures by Subject and Activity.
 
 Step 8:
 Write out to a text file.
-
