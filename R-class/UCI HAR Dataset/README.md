@@ -5,7 +5,7 @@ date: "November 22, 2015"
 output: html_document
 ---
 
-
+** library dependencies -- dplyr
 
 
 This is class project for Getting and Cleaning Data.
