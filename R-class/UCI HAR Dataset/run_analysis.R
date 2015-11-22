@@ -63,5 +63,7 @@ calculate_mean <- function(){
         #write the output
         write.table(AllDataMean, "meanData.txt", row.name=false)
 
+        
+        
 }
 

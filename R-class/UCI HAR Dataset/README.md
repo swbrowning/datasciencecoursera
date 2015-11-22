@@ -5,6 +5,9 @@ date: "November 22, 2015"
 output: html_document
 ---
 
+
+
+
 This is class project for Getting and Cleaning Data.
 
 The data was initally downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
